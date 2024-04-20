@@ -12,6 +12,7 @@ def get_garden_matrix() -> pd.DataFrame:
     df.apply(lambda x: x.astype(str).str.upper())
     return df[:4]
 
+
 def get_plants(matrix: pd.DataFrame) -> set:
     """
     Get a set of the in-scope plant names.
@@ -23,6 +24,7 @@ def get_plants(matrix: pd.DataFrame) -> set:
     for index, row in matrix.iterrows():
         plant_set.add(row[c.PLANT_NAME_COLUMN])
     return plant_set
+
 
 def get_blanks(num_plants: int, neighbor_limits: int) -> set:
     """
@@ -37,6 +39,7 @@ def get_blanks(num_plants: int, neighbor_limits: int) -> set:
         blank_set.add(c.BLANK_PREFIX + i)
     return blank_set
 
+
 def get_plant_edges(plants: set) -> set:
     """
     Get a set of edges among plants. The configuration is that of a clique.
@@ -50,6 +53,7 @@ def get_plant_edges(plants: set) -> set:
             if plant != plant2:
                 edge_list.append([plant, plant2])
     return edge_list
+
 
 def get_blank_edges(plants: set, blanks: set, neighbor_limits: int) -> set:
     """
@@ -68,6 +72,7 @@ def get_blank_edges(plants: set, blanks: set, neighbor_limits: int) -> set:
             counter += 1
     return edge_set
 
+
 def get_relationships(matrix: pd.DataFrame, plant: str, relationship: str) -> set:
     """
     Given the plant data and a particular plant, obtain either the friends
@@ -79,9 +84,9 @@ def get_relationships(matrix: pd.DataFrame, plant: str, relationship: str) -> se
     :return: All of the friends or foes of the plant type in question
     """
     # Determine relationship to query
-    if relationship.upper() == "FRIEND":
+    if relationship.upper() == c.FRIEND_VALUE:
         col = c.FRIEND_COLUMN
-    elif relationship.upper() == "FOE":
+    elif relationship.upper() == c.FOE_VALUE:
         col = c.FOE_COLUMN
 
     # Parse the plants in that relation type
@@ -91,3 +96,35 @@ def get_relationships(matrix: pd.DataFrame, plant: str, relationship: str) -> se
     for relation in relation_data:
         relations.add(relation.upper().strip())
     return relations
+
+
+def get_plant_relationship(matrix: pd.DataFrame, plant_1: str, plant_2: str) -> str:
+    """
+    Given two plants, determine their relationship to one another.
+
+    :param matrix: The Pandas DataFrame corresponding to the garden
+    :param plant_1: The plant type whose relationships we are seeking
+    :param plant_2: The plant type being searched among plant_1's relationships
+    :return: A string corresponding to 
+    """
+    # Get set of friends
+    friends = get_relationships(
+        matrix=matrix,
+        plant=plant_1,
+        relationship=c.FRIEND_VALUE
+    )
+
+    if plant_2 in friends:
+        return c.FRIEND_VALUE
+
+    # Get set of foes
+    foes = get_relationships(
+        matrix=matrix,
+        plant=plant_1,
+        relationship=c.FOE_VALUE
+    )
+
+    if plant_2 in foes:
+        return c.FOE_VALUE
+
+    return c.NEUTRAL_VALUE

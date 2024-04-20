@@ -2,7 +2,10 @@
 MATRIX_FILENAME = "garden_matrix.xlsx"
 PLANT_NAME_COLUMN = "Plant"
 FRIEND_COLUMN = "Friend"
+FRIEND_VALUE = FRIEND_COLUMN.upper()
 FOE_COLUMN = "Foe"
+FOE_VALUE = FOE_COLUMN.upper()
+NEUTRAL_VALUE = ""
 
 # Weights
 FRIEND_WEIGHT = 1

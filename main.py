@@ -35,13 +35,11 @@ def get_weight(matrix_row, neighbor, friend_weight, neutral_weight, foe_weight):
         return neutral_weight
 
 
-def main(graph, neighbor_limits: int):
+def planter_algorithm(graph: nx.Graph):
     """
     :param graph: The graphical representation of the garden elements,
-        where each vertex is a plant type and each edge is its friendliness
-        to the plant to which it is connected.
-    :param neighbor_limits: The maximum number of neighbors that any given
-        plant may have.
+    where each vertex is a plant type and each edge is its friendliness
+    to the plant to which it is connected.
     :return: A graph that indicates the lowest-cost neighbor arrangement for the garden.
     """
     pass
@@ -71,11 +69,22 @@ if __name__ == "__main__":
         neighbor_limits=c.NEIGHBOR_LIMITS
     )
 
-    # Build a graph
-    graph = build_graph(garden_matrix, 2, 3)
+    # Concatenate all nodes and edges
+    nodes = plants.union(blanks)
+    edges = plant_edges.union(blank_edges)
 
-    nx.draw(graph, with_labels=True)
-    labels = {e: graph.edges[e]['weight'] for e in graph.edges}
-    pos = nx.spring_layout(graph)  # For better example looking
-    nx.draw_networkx_edge_labels(graph, pos)
+    # Build the input graph
+    input_graph = graph.build_graph(
+        nodes=nodes,
+        edges=edges
+    )
+
+    output_graph = planter_algorithm(
+        graph=input_graph
+    )
+
+    nx.draw(output_graph, with_labels=True)
+    labels = {e: output_graph.edges[e]['weight'] for e in graph.edges}
+    pos = nx.spring_layout(output_graph)  # For better example looking
+    nx.draw_networkx_edge_labels(output_graph, pos)
     plt.show()

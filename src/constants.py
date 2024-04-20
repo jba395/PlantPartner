@@ -14,7 +14,7 @@ BLANK_WEIGHT = 3
 FOE_WEIGHT = 4
 
 # Formatting
-BLANK_PREFIX = "Blank_"
+BLANK_PREFIX = "BLANK_"
 
 # Parameters
 NEIGHBOR_LIMITS = 2

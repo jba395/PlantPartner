@@ -48,7 +48,7 @@ def build_graph(matrix: pd.DataFrame, nodes: set, edges: set) -> nx.Graph:
 
     # Add edge weights
     for edge in list(G.edges):
-        relationship_weight = data.get_relationship_weight(
+        relationship_weight = get_relationship_weight(
             matrix=matrix,
             plant_1=edge[0],
             plant_2=edge[1]

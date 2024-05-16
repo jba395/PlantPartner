@@ -18,17 +18,20 @@ def planter_algorithm(graph: nx.Graph):
 if __name__ == "__main__":
     # Fetch data
     garden_matrix = data.get_garden_matrix()
+    print("\nGARDEN MATRIX")
     print(garden_matrix)
 
     # Get plant names and edges
     plants = data.get_plants(
         matrix=garden_matrix
     )
+    print("\nPLANT SET")
     print(plants)
 
     plant_edges = data.get_plant_edges(
         plants=plants
     )
+    print("\nPLANT EDGES")
     print(plant_edges)
 
     # Get unique blank names and edges
@@ -36,6 +39,7 @@ if __name__ == "__main__":
         num_plants=len(plants), 
         neighbor_limits=c.NEIGHBOR_LIMITS
     )
+    print("\nBLANKS")
     print(blanks)
 
     blank_edges = data.get_blank_edges(
@@ -43,8 +47,10 @@ if __name__ == "__main__":
         blanks=blanks,
         neighbor_limits=c.NEIGHBOR_LIMITS
     )
+    print("\nBLANK EDGES")
     print(blank_edges)
 
+    exit(0)
     # Concatenate all nodes and edges
     nodes = plants.union(blanks)
     edges = plant_edges.union(blank_edges)

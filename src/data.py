@@ -10,7 +10,7 @@ def get_garden_matrix() -> pd.DataFrame:
     """
     df = pd.read_excel(c.MATRIX_FILENAME)
     df = df.apply(lambda x: x.astype(str).str.upper())
-    return df[:4]
+    return df[:2]
 
 
 def get_plants(matrix: pd.DataFrame) -> set:
@@ -88,10 +88,11 @@ def get_relationships(matrix: pd.DataFrame, plant: str, relationship: str) -> se
         col = c.FOE_COLUMN
 
     # Parse the plants in that relation type
-    print(matrix)
-    row = matrix.loc[matrix[col] == plant]
-    print(row)
-    relation_data = row[c.FRIEND_COLUMN].split(",")
+    row = matrix.loc[matrix[c.PLANT_NAME_COLUMN] == plant]
+    relation_data = row.iloc[0][c.FRIEND_COLUMN]
+    relation_data = relation_data.split(",")
+    
+    # Create a set with trimmed whitespace for each element
     relations = set()
     for relation in relation_data:
         relations.add(relation.upper().strip())

@@ -48,10 +48,12 @@ def get_plant_edges(plants: set) -> set:
     :return: A set of edge specifications comprising a clique in all plant types
     """
     edge_set = set()
-    for plant in plants:
+    for plant1 in plants:
         for plant2 in plants:
-            if plant != plant2:
-                edge_set.add((plant, plant2))
+            if plant1 != plant2:
+                # This check ensures that we don't see double edges (e.g. A->B & B->A)
+                if (plant2, plant1) not in edge_set:
+                    edge_set.add((plant1, plant2))
     return edge_set
 
 

@@ -50,7 +50,7 @@ if __name__ == "__main__":
     print("\nBLANK EDGES")
     print(blank_edges)
 
-    exit(0)
+    # exit(0)
     # Concatenate all nodes and edges
     nodes = plants.union(blanks)
     edges = plant_edges.union(blank_edges)
@@ -62,15 +62,16 @@ if __name__ == "__main__":
         edges=edges
     )
 
-    nx.draw(output_graph, with_labels=True)
-    labels = {e: output_graph.edges[e]['weight'] for e in graph.edges}
-    pos = nx.spring_layout(output_graph)  # For better example looking
-    nx.draw_networkx_edge_labels(output_graph, pos)
+    nx.draw(input_graph, with_labels=True)
+    labels = {e: input_graph.edges[e]['weight'] for e in input_graph.edges}
+    pos = nx.spring_layout(input_graph)  # For better example looking
+    nx.draw_networkx_edge_labels(input_graph, pos)
     plt.show()
 
-    output_graph = planter_algorithm(
-        graph=input_graph
-    )
+
+    # output_graph = planter_algorithm(
+    #     graph=input_graph
+    # )
 
     # nx.draw(output_graph, with_labels=True)
     # labels = {e: output_graph.edges[e]['weight'] for e in graph.edges}

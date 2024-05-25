@@ -67,9 +67,10 @@ def get_blank_edges(plants: set, blanks: set, neighbor_limits: int) -> set:
     :return: A set of edge specifications for each of the plants with their blanks
     """
     edge_set = set()
+    blanks_copy = blanks.copy()
     for plant in plants:
         for neighbor in range(neighbor_limits):
-            edge_set.add((plant, blanks.pop()))
+            edge_set.add((plant, blanks_copy.pop()))
     return edge_set
 
 

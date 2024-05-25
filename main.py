@@ -26,23 +26,20 @@ def planter_algorithm(input_graph: nx.Graph, output_graph: nx.Graph) -> nx.Graph
             output_node_neighbors = list(output_graph.neighbors(node))
             output_node_degree = len(output_node_neighbors)
             if output_node_degree < c.NEIGHBOR_LIMITS:
-                print("Got inside the degree condition")
                 min_weight = 99999999
                 min_edge = None
 
                 # Search through all edge weights associated with a given node
                 for edge in input_graph.edges(node):
-                    print("EDGE")
-                    print(edge)
-                    if input_graph.edges[edge[0], edge[1]]["weight"]:
-                        print("Found weight!")
+                    weight = input_graph.edges[edge[0], edge[1]]["weight"]
+                    if weight < min_weight:
+                        min_weight = weight
+                        min_edge = edge
+        print("Min edge: " + str(min_edge))
+        input_graph.remove_edge(edge[0], edge[1])
+        output_graph.add_edge(edge[0], edge[1])
 
-
-                # for input_neighbor in input_node_neighbors:
-                #     print("Evaluating " + input_node + " neighbor " + input_neighbor)
-                #     if not output_graph.has_edge(input_node, input_neighbor):
-                #         if (input_node, input_neighbor)["Weight"]:
-                #             pass
+    return output_graph
 
 if __name__ == "__main__":
     # Fetch data
@@ -54,57 +51,31 @@ if __name__ == "__main__":
     plants = data.get_plants(
         matrix=garden_matrix
     )
-    print("\nPLANT SET")
-    print(plants)
 
     plant_edges = data.get_plant_edges(
         plants=plants
     )
-    print("\nPLANT EDGES")
-    print(plant_edges)
 
     # Get unique blank names and edges
     blanks = data.get_blanks(
         num_plants=len(plants), 
         neighbor_limits=c.NEIGHBOR_LIMITS
     )
-    print("\nBLANKS")
-    print(blanks)
 
     blank_edges = data.get_blank_edges(
         plants=plants,
         blanks=blanks,
         neighbor_limits=c.NEIGHBOR_LIMITS
     )
-    print("\nBLANK EDGES")
-    print(blank_edges)
 
-    print("\nBlanks again")
-    print(blanks)
-
-    # exit(0)
     # Concatenate all nodes and edges
     nodes = plants.union(blanks)
-    print("\nNODES HERE")
-    print(nodes)
-
-    print("\nWhat about plants?")
-    print(plants)
-
-    print("\nWhat about manually?")
-    print(plants)
-    print(blanks)
-    print(plants.union(blanks))
-
     edges = plant_edges.union(blank_edges)
-
-    print("\nNODES HERE")
-    print(nodes)
 
     # Build the input graph
     input_graph = graph.build_graph(
         matrix=garden_matrix,
-        nodes=plants.union(blanks),
+        nodes=nodes,
         edges=plant_edges.union(blank_edges)
     )
 
@@ -113,7 +84,7 @@ if __name__ == "__main__":
 
     output_graph = graph.build_graph(
         matrix=garden_matrix,
-        nodes=plants.union(blanks),
+        nodes=nodes,
         edges=set()
     )
     print("\nOUTPUT GRAPH NODES")
@@ -131,8 +102,8 @@ if __name__ == "__main__":
         output_graph=output_graph
     )
 
-    # nx.draw(output_graph, with_labels=True)
-    # labels = {e: output_graph.edges[e]['weight'] for e in graph.edges}
-    # pos = nx.spring_layout(output_graph)  # For better example looking
-    # nx.draw_networkx_edge_labels(output_graph, pos)
-    # plt.show()
+    nx.draw(output_graph, with_labels=True)
+    # labels = {e: output_graph.edges[e[0], e[1]]['weight'] for e in output_graph.edges}
+    pos = nx.spring_layout(output_graph)  # For better example looking
+    nx.draw_networkx_edge_labels(output_graph, pos)
+    plt.show()

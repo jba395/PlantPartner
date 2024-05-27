@@ -1,0 +1,1678 @@
+Starting program
+Obtained garden matrix
+
+
+Plants in-scope: 
+{'POTATOES', 'BEETS', 'CORN', 'PUMPKINS & WINTER SQUASH', 'EGGPLANT', 'PEPPERS', 'CUCUMBER', 'BEANS', 'LETTUCE', 'PEAS', 'SWEET POTATOES', 'ZUCCHINI & SUMMER SQUASH', 'MELONS', 'RADISHES', 'TOMATOES', 'ENDIVE', 'ONIONS & SHALLOTS', 'BOK CHOY', 'TOMATILLOS', 'ARUGULA', 'CARROTS', 'PARSNIPS', 'TURNIPS'}
+
+Plant edges in-scope: 
+{('PARSNIPS', 'TURNIPS'), ('PUMPKINS & WINTER SQUASH', 'ONIONS & SHALLOTS'), ('POTATOES', 'SWEET POTATOES'), ('BOK CHOY', 'PARSNIPS'), ('CORN', 'EGGPLANT'), ('EGGPLANT', 'ZUCCHINI & SUMMER SQUASH'), ('BEETS', 'ENDIVE'), ('SWEET POTATOES', 'TOMATOES'), ('BOK CHOY', 'ARUGULA'), ('RADISHES', 'ONIONS & SHALLOTS'), ('EGGPLANT', 'ENDIVE'), ('PEAS', 'TOMATILLOS'), ('ONIONS & SHALLOTS', 'TOMATILLOS'), ('ARUGULA', 'CARROTS'), ('POTATOES', 'PEAS'), ('PEPPERS', 'ENDIVE'), ('POTATOES', 'MELONS'), ('BOK CHOY', 'TURNIPS'), ('POTATOES', 'BOK CHOY'), ('LETTUCE', 'CARROTS'), ('BEETS', 'LETTUCE'), ('TOMATOES', 'BOK CHOY'), ('PEAS', 'BOK CHOY'), ('PUMPKINS & WINTER SQUASH', 'EGGPLANT'), ('CORN', 'TOMATILLOS'), ('EGGPLANT', 'PARSNIPS'), ('PEPPERS', 'PARSNIPS'), ('ARUGULA', 'PARSNIPS'), ('LETTUCE', 'ZUCCHINI & SUMMER SQUASH'), ('BEETS', 'ARUGULA'), ('BEANS', 'RADISHES'), ('EGGPLANT', 'ARUGULA'), ('PEPPERS', 'ARUGULA'), ('BEETS', 'TURNIPS'), ('SWEET POTATOES', 'TOMATILLOS'), ('POTATOES', 'ENDIVE'), ('BOK CHOY', 'CARROTS'), ('PEPPERS', 'TURNIPS'), ('TOMATOES', 'ENDIVE'), ('BEETS', 'PEPPERS'), ('BEANS', 'TOMATOES'), ('BEETS', 'BEANS'), ('PUMPKINS & WINTER SQUASH', 'TOMATILLOS'), ('LETTUCE', 'PARSNIPS'), ('EGGPLANT', 'PEPPERS'), ('ZUCCHINI & SUMMER SQUASH', 'MELONS'), ('ZUCCHINI & SUMMER SQUASH', 'BOK CHOY'), ('CORN', 'CUCUMBER'), ('POTATOES', 'PARSNIPS'), ('CORN', 'RADISHES'), ('PEPPERS', 'BEANS'), ('EGGPLANT', 'ONIONS & SHALLOTS'), ('LETTUCE', 'ARUGULA'), ('ENDIVE', 'TOMATILLOS'), ('PEPPERS', 'ONIONS & SHALLOTS'), ('BEETS', 'CARROTS'), ('POTATOES', 'ARUGULA'), ('CUCUMBER', 'RADISHES'), ('SWEET POTATOES', 'RADISHES'), ('TOMATOES', 'ARUGULA'), ('CORN', 'TOMATOES'), ('PEPPERS', 'CARROTS'), ('ENDIVE', 'BOK CHOY'), ('ZUCCHINI & SUMMER SQUASH', 'ENDIVE'), ('PUMPKINS & WINTER SQUASH', 'CUCUMBER'), ('BEETS', 'ZUCCHINI & SUMMER SQUASH'), ('TOMATOES', 'TURNIPS'), ('BEANS', 'TOMATILLOS'), ('PUMPKINS & WINTER SQUASH', 'RADISHES'), ('CUCUMBER', 'TOMATOES'), ('PEAS', 'TURNIPS'), ('POTATOES', 'PEPPERS'), ('ONIONS & SHALLOTS', 'TURNIPS'), ('POTATOES', 'BEANS'), ('PEAS', 'SWEET POTATOES'), ('PEPPERS', 'ZUCCHINI & SUMMER SQUASH'), ('MELONS', 'TOMATOES'), ('LETTUCE', 'ONIONS & SHALLOTS'), ('BEANS', 'PEAS'), ('POTATOES', 'ONIONS & SHALLOTS'), ('BEANS', 'BOK CHOY'), ('PUMPKINS & WINTER SQUASH', 'TOMATOES'), ('BEETS', 'PARSNIPS'), ('POTATOES', 'CARROTS'), ('CORN', 'SWEET POTATOES'), ('PEAS', 'MELONS'), ('ZUCCHINI & SUMMER SQUASH', 'ARUGULA'), ('ONIONS & SHALLOTS', 'BOK CHOY'), ('TOMATOES', 'CARROTS'), ('ONIONS & SHALLOTS', 'CARROTS'), ('PEAS', 'CARROTS'), ('RADISHES', 'TOMATOES'), ('CUCUMBER', 'SWEET POTATOES'), ('ZUCCHINI & SUMMER SQUASH', 'TURNIPS'), ('POTATOES', 'ZUCCHINI & SUMMER SQUASH'), ('CORN', 'PEAS'), ('CUCUMBER', 'TOMATILLOS'), ('TOMATILLOS', 'PARSNIPS'), ('CORN', 'MELONS'), ('MELONS', 'TOMATILLOS'), ('CORN', 'BOK CHOY'), ('PEAS', 'ZUCCHINI & SUMMER SQUASH'), ('CUCUMBER', 'PEAS'), ('PUMPKINS & WINTER SQUASH', 'SWEET POTATOES'), ('CUCUMBER', 'MELONS'), ('TOMATILLOS', 'ARUGULA'), ('PEAS', 'ENDIVE'), ('CUCUMBER', 'BOK CHOY'), ('SWEET POTATOES', 'MELONS'), ('BEANS', 'LETTUCE'), ('SWEET POTATOES', 'BOK CHOY'), ('ENDIVE', 'TURNIPS'), ('TOMATILLOS', 'TURNIPS'), ('BEETS', 'PUMPKINS & WINTER SQUASH'), ('BEETS', 'ONIONS & SHALLOTS'), ('ZUCCHINI & SUMMER SQUASH', 'CARROTS'), ('PUMPKINS & WINTER SQUASH', 'PEAS'), ('RADISHES', 'TOMATILLOS'), ('TOMATOES', 'PARSNIPS'), ('PUMPKINS & WINTER SQUASH', 'MELONS'), ('EGGPLANT', 'CUCUMBER'), ('CORN', 'ENDIVE'), ('PUMPKINS & WINTER SQUASH', 'BOK CHOY'), ('PEAS', 'PARSNIPS'), ('EGGPLANT', 'RADISHES'), ('PEPPERS', 'CUCUMBER'), ('ONIONS & SHALLOTS', 'PARSNIPS'), ('CARROTS', 'TURNIPS'), ('MELONS', 'RADISHES'), ('BEANS', 'TURNIPS'), ('CUCUMBER', 'ENDIVE'), ('PEAS', 'ARUGULA'), ('ONIONS & SHALLOTS', 'ARUGULA'), ('RADISHES', 'BOK CHOY'), ('CORN', 'LETTUCE'), ('BEANS', 'SWEET POTATOES'), ('SWEET POTATOES', 'ENDIVE'), ('ENDIVE', 'CARROTS'), ('EGGPLANT', 'TOMATOES'), ('TOMATILLOS', 'CARROTS'), ('BEETS', 'EGGPLANT'), ('PEPPERS', 'TOMATOES'), ('CUCUMBER', 'LETTUCE'), ('BOK CHOY', 'TOMATILLOS'), ('PUMPKINS & WINTER SQUASH', 'ENDIVE'), ('POTATOES', 'CORN'), ('CORN', 'ARUGULA'), ('LETTUCE', 'RADISHES'), ('POTATOES', 'PUMPKINS & WINTER SQUASH'), ('BEANS', 'MELONS'), ('POTATOES', 'CUCUMBER'), ('ZUCCHINI & SUMMER SQUASH', 'PARSNIPS'), ('CORN', 'TURNIPS'), ('TOMATOES', 'ONIONS & SHALLOTS'), ('CUCUMBER', 'ARUGULA'), ('BEANS', 'CARROTS'), ('PEAS', 'ONIONS & SHALLOTS'), ('PUMPKINS & WINTER SQUASH', 'LETTUCE'), ('SWEET POTATOES', 'ARUGULA'), ('CORN', 'PEPPERS'), ('CUCUMBER', 'TURNIPS'), ('CORN', 'BEANS'), ('LETTUCE', 'TOMATOES'), ('SWEET POTATOES', 'TURNIPS'), ('POTATOES', 'TOMATOES'), ('BEANS', 'ZUCCHINI & SUMMER SQUASH'), ('PUMPKINS & WINTER SQUASH', 'ARUGULA'), ('EGGPLANT', 'TOMATILLOS'), ('ENDIVE', 'PARSNIPS'), ('PEPPERS', 'TOMATILLOS'), ('CUCUMBER', 'BEANS'), ('BEANS', 'ENDIVE'), ('POTATOES', 'EGGPLANT'), ('PUMPKINS & WINTER SQUASH', 'TURNIPS'), ('CORN', 'CARROTS'), ('EGGPLANT', 'PEAS'), ('ENDIVE', 'ARUGULA'), ('EGGPLANT', 'BOK CHOY'), ('CARROTS', 'PARSNIPS'), ('ZUCCHINI & SUMMER SQUASH', 'ONIONS & SHALLOTS'), ('PUMPKINS & WINTER SQUASH', 'PEPPERS'), ('PUMPKINS & WINTER SQUASH', 'BEANS'), ('BEETS', 'CORN'), ('CUCUMBER', 'CARROTS'), ('BEANS', 'PARSNIPS'), ('MELONS', 'BOK CHOY'), ('RADISHES', 'TURNIPS'), ('SWEET POTATOES', 'CARROTS'), ('CORN', 'ZUCCHINI & SUMMER SQUASH'), ('BEETS', 'CUCUMBER'), ('LETTUCE', 'TOMATILLOS'), ('BEETS', 'RADISHES'), ('BEANS', 'ARUGULA'), ('POTATOES', 'TOMATILLOS'), ('CUCUMBER', 'ZUCCHINI & SUMMER SQUASH'), ('PEPPERS', 'RADISHES'), ('PUMPKINS & WINTER SQUASH', 'CARROTS'), ('ZUCCHINI & SUMMER SQUASH', 'TOMATOES'), ('LETTUCE', 'PEAS'), ('SWEET POTATOES', 'ZUCCHINI & SUMMER SQUASH'), ('TOMATOES', 'TOMATILLOS'), ('ENDIVE', 'ONIONS & SHALLOTS'), ('LETTUCE', 'MELONS'), ('LETTUCE', 'BOK CHOY'), ('BEETS', 'TOMATOES'), ('MELONS', 'ENDIVE'), ('CORN', 'PARSNIPS'), ('RADISHES', 'CARROTS'), ('PUMPKINS & WINTER SQUASH', 'ZUCCHINI & SUMMER SQUASH'), ('EGGPLANT', 'LETTUCE'), ('PEPPERS', 'LETTUCE'), ('CUCUMBER', 'PARSNIPS'), ('BEANS', 'ONIONS & SHALLOTS'), ('SWEET POTATOES', 'PARSNIPS'), ('MELONS', 'PARSNIPS'), ('POTATOES', 'RADISHES'), ('LETTUCE', 'ENDIVE'), ('RADISHES', 'ENDIVE'), ('ZUCCHINI & SUMMER SQUASH', 'TOMATILLOS'), ('MELONS', 'ARUGULA'), ('PUMPKINS & WINTER SQUASH', 'PARSNIPS'), ('PEAS', 'RADISHES'), ('BEETS', 'SWEET POTATOES'), ('EGGPLANT', 'TURNIPS'), ('BEETS', 'TOMATILLOS'), ('EGGPLANT', 'SWEET POTATOES'), ('MELONS', 'TURNIPS'), ('ARUGULA', 'TURNIPS'), ('PEPPERS', 'SWEET POTATOES'), ('POTATOES', 'BEETS'), ('CORN', 'PUMPKINS & WINTER SQUASH'), ('POTATOES', 'LETTUCE'), ('CORN', 'ONIONS & SHALLOTS'), ('EGGPLANT', 'BEANS'), ('RADISHES', 'PARSNIPS'), ('BEETS', 'PEAS'), ('PEAS', 'TOMATOES'), ('BEETS', 'MELONS'), ('BEETS', 'BOK CHOY'), ('CUCUMBER', 'ONIONS & SHALLOTS'), ('RADISHES', 'ARUGULA'), ('EGGPLANT', 'MELONS'), ('PEPPERS', 'PEAS'), ('SWEET POTATOES', 'ONIONS & SHALLOTS'), ('PEPPERS', 'MELONS'), ('MELONS', 'ONIONS & SHALLOTS'), ('PEPPERS', 'BOK CHOY'), ('LETTUCE', 'TURNIPS'), ('EGGPLANT', 'CARROTS'), ('ZUCCHINI & SUMMER SQUASH', 'RADISHES'), ('LETTUCE', 'SWEET POTATOES'), ('POTATOES', 'TURNIPS'), ('MELONS', 'CARROTS')}
+
+Blanks in-scope: 
+{'BLANK_35', 'BLANK_19', 'BLANK_20', 'BLANK_13', 'BLANK_11', 'BLANK_42', 'BLANK_10', 'BLANK_16', 'BLANK_43', 'BLANK_21', 'BLANK_22', 'BLANK_23', 'BLANK_6', 'BLANK_17', 'BLANK_37', 'BLANK_34', 'BLANK_40', 'BLANK_8', 'BLANK_7', 'BLANK_3', 'BLANK_38', 'BLANK_2', 'BLANK_27', 'BLANK_4', 'BLANK_29', 'BLANK_30', 'BLANK_33', 'BLANK_0', 'BLANK_1', 'BLANK_5', 'BLANK_45', 'BLANK_36', 'BLANK_9', 'BLANK_25', 'BLANK_14', 'BLANK_12', 'BLANK_39', 'BLANK_18', 'BLANK_44', 'BLANK_32', 'BLANK_26', 'BLANK_24', 'BLANK_41', 'BLANK_15', 'BLANK_31', 'BLANK_28'}
+
+Blank edges in-scope: 
+{('RADISHES', 'BLANK_33'), ('EGGPLANT', 'BLANK_43'), ('ENDIVE', 'BLANK_45'), ('SWEET POTATOES', 'BLANK_38'), ('LETTUCE', 'BLANK_8'), ('CORN', 'BLANK_42'), ('CUCUMBER', 'BLANK_17'), ('BEETS', 'BLANK_20'), ('ZUCCHINI & SUMMER SQUASH', 'BLANK_4'), ('CORN', 'BLANK_11'), ('ONIONS & SHALLOTS', 'BLANK_9'), ('MELONS', 'BLANK_30'), ('ONIONS & SHALLOTS', 'BLANK_25'), ('PUMPKINS & WINTER SQUASH', 'BLANK_10'), ('TOMATILLOS', 'BLANK_18'), ('SWEET POTATOES', 'BLANK_2'), ('RADISHES', 'BLANK_0'), ('TOMATOES', 'BLANK_1'), ('TURNIPS', 'BLANK_28'), ('POTATOES', 'BLANK_35'), ('BEANS', 'BLANK_34'), ('CARROTS', 'BLANK_26'), ('PEAS', 'BLANK_3'), ('PUMPKINS & WINTER SQUASH', 'BLANK_16'), ('BOK CHOY', 'BLANK_14'), ('PARSNIPS', 'BLANK_41'), ('BEANS', 'BLANK_37'), ('LETTUCE', 'BLANK_40'), ('ARUGULA', 'BLANK_44'), ('TOMATILLOS', 'BLANK_39'), ('CUCUMBER', 'BLANK_6'), ('ENDIVE', 'BLANK_36'), ('CARROTS', 'BLANK_24'), ('PEAS', 'BLANK_7'), ('TURNIPS', 'BLANK_31'), ('MELONS', 'BLANK_29'), ('EGGPLANT', 'BLANK_21'), ('ZUCCHINI & SUMMER SQUASH', 'BLANK_27'), ('TOMATOES', 'BLANK_5'), ('ARUGULA', 'BLANK_32'), ('POTATOES', 'BLANK_19'), ('BOK CHOY', 'BLANK_12'), ('PARSNIPS', 'BLANK_15'), ('PEPPERS', 'BLANK_23'), ('PEPPERS', 'BLANK_22'), ('BEETS', 'BLANK_13')}
+
+Input nodes: 
+['BLANK_19', 'BEETS', 'PUMPKINS & WINTER SQUASH', 'BLANK_42', 'BLANK_10', 'BLANK_16', 'BLANK_21', 'BLANK_23', 'PEPPERS', 'BLANK_17', 'BLANK_37', 'BLANK_34', 'BLANK_40', 'BEANS', 'BLANK_7', 'BLANK_38', 'SWEET POTATOES', 'ZUCCHINI & SUMMER SQUASH', 'TOMATOES', 'ENDIVE', 'BLANK_1', 'BLANK_45', 'BLANK_36', 'BLANK_9', 'BLANK_25', 'BLANK_14', 'BLANK_12', 'ONIONS & SHALLOTS', 'BLANK_32', 'BLANK_26', 'BLANK_24', 'PARSNIPS', 'BLANK_31', 'BLANK_44', 'BLANK_35', 'BLANK_20', 'POTATOES', 'CORN', 'BLANK_13', 'EGGPLANT', 'BLANK_11', 'BLANK_43', 'BLANK_22', 'BLANK_6', 'CUCUMBER', 'BLANK_8', 'LETTUCE', 'PEAS', 'BLANK_3', 'BLANK_2', 'MELONS', 'RADISHES', 'BLANK_27', 'BLANK_4', 'BLANK_29', 'BLANK_30', 'BLANK_33', 'BLANK_0', 'BLANK_5', 'BLANK_39', 'BLANK_18', 'BOK CHOY', 'TOMATILLOS', 'BLANK_41', 'ARUGULA', 'CARROTS', 'TURNIPS', 'BLANK_15', 'BLANK_28']
+
+Output nodes: ['BLANK_19', 'BEETS', 'PUMPKINS & WINTER SQUASH', 'BLANK_42', 'BLANK_10', 'BLANK_16', 'BLANK_21', 'BLANK_23', 'PEPPERS', 'BLANK_17', 'BLANK_37', 'BLANK_34', 'BLANK_40', 'BEANS', 'BLANK_7', 'BLANK_38', 'SWEET POTATOES', 'ZUCCHINI & SUMMER SQUASH', 'TOMATOES', 'ENDIVE', 'BLANK_1', 'BLANK_45', 'BLANK_36', 'BLANK_9', 'BLANK_25', 'BLANK_14', 'BLANK_12', 'ONIONS & SHALLOTS', 'BLANK_32', 'BLANK_26', 'BLANK_24', 'PARSNIPS', 'BLANK_31', 'BLANK_44', 'BLANK_35', 'BLANK_20', 'POTATOES', 'CORN', 'BLANK_13', 'EGGPLANT', 'BLANK_11', 'BLANK_43', 'BLANK_22', 'BLANK_6', 'CUCUMBER', 'BLANK_8', 'LETTUCE', 'PEAS', 'BLANK_3', 'BLANK_2', 'MELONS', 'RADISHES', 'BLANK_27', 'BLANK_4', 'BLANK_29', 'BLANK_30', 'BLANK_33', 'BLANK_0', 'BLANK_5', 'BLANK_39', 'BLANK_18', 'BOK CHOY', 'TOMATILLOS', 'BLANK_41', 'ARUGULA', 'CARROTS', 'TURNIPS', 'BLANK_15', 'BLANK_28']
+
+
+PLANTING ALGORITHM
+
+	Neighbor iteration 0
+		BLANK_19 is not in the plants set; skipping
+		Checking node BEETS
+		BEETS has 0 neighbors
+			BEETS can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				BEETS edge ('BEETS', 'ENDIVE') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				BEETS edge ('BEETS', 'LETTUCE') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'TURNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'BEANS') is being evaluated with weight 1
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'BLANK_20') is being evaluated with weight 3
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'CORN') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'RADISHES') is being evaluated with weight 1
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'BLANK_13') is being evaluated with weight 3
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'POTATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEETS edge ('BEETS', 'BOK CHOY') is being evaluated with weight 2
+			*****Min edge ('BEETS', 'LETTUCE') chosen with weight 1*****
+		Checking node PUMPKINS & WINTER SQUASH
+		PUMPKINS & WINTER SQUASH has 0 neighbors
+			PUMPKINS & WINTER SQUASH can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'BLANK_16') is being evaluated with weight 3
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'PEAS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'BLANK_10') is being evaluated with weight 3
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'CORN') is being evaluated with weight 1
+			*****Min edge ('PUMPKINS & WINTER SQUASH', 'PEAS') chosen with weight 1*****
+		BLANK_42 is not in the plants set; skipping
+		BLANK_10 is not in the plants set; skipping
+		BLANK_16 is not in the plants set; skipping
+		BLANK_21 is not in the plants set; skipping
+		BLANK_23 is not in the plants set; skipping
+		Checking node PEPPERS
+		PEPPERS has 0 neighbors
+			PEPPERS can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				PEPPERS edge ('PEPPERS', 'ENDIVE') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				PEPPERS edge ('PEPPERS', 'PARSNIPS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'EGGPLANT') is being evaluated with weight 1
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'BLANK_22') is being evaluated with weight 3
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'CARROTS') is being evaluated with weight 1
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'TOMATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'CORN') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'TOMATILLOS') is being evaluated with weight 1
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'BLANK_23') is being evaluated with weight 3
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				PEPPERS edge ('PEPPERS', 'BOK CHOY') is being evaluated with weight 2
+			*****Min edge ('PEPPERS', 'PARSNIPS') chosen with weight 1*****
+		BLANK_17 is not in the plants set; skipping
+		BLANK_37 is not in the plants set; skipping
+		BLANK_34 is not in the plants set; skipping
+		BLANK_40 is not in the plants set; skipping
+		Checking node BEANS
+		BEANS has 0 neighbors
+			BEANS can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				BEANS edge ('BEANS', 'RADISHES') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				BEANS edge ('BEANS', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				BEANS edge ('BEANS', 'BEETS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'POTATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'BOK CHOY') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'LETTUCE') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'TURNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'SWEET POTATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'CARROTS') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'CORN') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'BLANK_37') is being evaluated with weight 3
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'CUCUMBER') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'ENDIVE') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'PARSNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'ARUGULA') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'BLANK_34') is being evaluated with weight 3
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'EGGPLANT') is being evaluated with weight 1
+			*****Min edge ('BEANS', 'BEETS') chosen with weight 1*****
+		BLANK_7 is not in the plants set; skipping
+		BLANK_38 is not in the plants set; skipping
+		Checking node SWEET POTATOES
+		SWEET POTATOES has 0 neighbors
+			SWEET POTATOES can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				SWEET POTATOES edge ('SWEET POTATOES', 'POTATOES') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				SWEET POTATOES edge ('SWEET POTATOES', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				SWEET POTATOES edge ('SWEET POTATOES', 'BLANK_2') is being evaluated with weight 3
+				Min weight so far: 2
+				SWEET POTATOES edge ('SWEET POTATOES', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 2
+				SWEET POTATOES edge ('SWEET POTATOES', 'RADISHES') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'CORN') is being evaluated with weight 1
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'BEANS') is being evaluated with weight 1
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'BLANK_38') is being evaluated with weight 3
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'LETTUCE') is being evaluated with weight 2
+			*****Min edge ('SWEET POTATOES', 'RADISHES') chosen with weight 1*****
+		Checking node ZUCCHINI & SUMMER SQUASH
+		ZUCCHINI & SUMMER SQUASH has 0 neighbors
+			ZUCCHINI & SUMMER SQUASH can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'EGGPLANT') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 2
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'MELONS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'PEAS') is being evaluated with weight 1
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'BLANK_27') is being evaluated with weight 3
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'CORN') is being evaluated with weight 1
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'BLANK_4') is being evaluated with weight 3
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'RADISHES') is being evaluated with weight 2
+			*****Min edge ('ZUCCHINI & SUMMER SQUASH', 'MELONS') chosen with weight 1*****
+		Checking node TOMATOES
+		TOMATOES has 0 neighbors
+			TOMATOES can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				TOMATOES edge ('TOMATOES', 'SWEET POTATOES') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'BLANK_1') is being evaluated with weight 3
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'CORN') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'CUCUMBER') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'MELONS') is being evaluated with weight 1
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'CARROTS') is being evaluated with weight 1
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'BLANK_5') is being evaluated with weight 3
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'PARSNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'PEPPERS') is being evaluated with weight 1
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'PEAS') is being evaluated with weight 1
+			*****Min edge ('TOMATOES', 'CUCUMBER') chosen with weight 1*****
+		Checking node ENDIVE
+		ENDIVE has 0 neighbors
+			ENDIVE can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				ENDIVE edge ('ENDIVE', 'BEETS') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'BLANK_45') is being evaluated with weight 3
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'CORN') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'BEANS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				ENDIVE edge ('ENDIVE', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				ENDIVE edge ('ENDIVE', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				ENDIVE edge ('ENDIVE', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				ENDIVE edge ('ENDIVE', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				ENDIVE edge ('ENDIVE', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				ENDIVE edge ('ENDIVE', 'BLANK_36') is being evaluated with weight 3
+			*****Min edge ('ENDIVE', 'BEANS') chosen with weight 1*****
+		BLANK_1 is not in the plants set; skipping
+		BLANK_45 is not in the plants set; skipping
+		BLANK_36 is not in the plants set; skipping
+		BLANK_9 is not in the plants set; skipping
+		BLANK_25 is not in the plants set; skipping
+		BLANK_14 is not in the plants set; skipping
+		BLANK_12 is not in the plants set; skipping
+		Checking node ONIONS & SHALLOTS
+		ONIONS & SHALLOTS has 0 neighbors
+			ONIONS & SHALLOTS can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 2
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'TOMATILLOS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'TURNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'BLANK_9') is being evaluated with weight 3
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'BLANK_25') is being evaluated with weight 3
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'POTATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'CARROTS') is being evaluated with weight 1
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'PARSNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'CORN') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'CUCUMBER') is being evaluated with weight 1
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				ONIONS & SHALLOTS edge ('ONIONS & SHALLOTS', 'MELONS') is being evaluated with weight 2
+			*****Min edge ('ONIONS & SHALLOTS', 'TOMATILLOS') chosen with weight 1*****
+		BLANK_32 is not in the plants set; skipping
+		BLANK_26 is not in the plants set; skipping
+		BLANK_24 is not in the plants set; skipping
+		Checking node PARSNIPS
+		PARSNIPS has 0 neighbors
+			PARSNIPS can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				PARSNIPS edge ('PARSNIPS', 'TURNIPS') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				PARSNIPS edge ('PARSNIPS', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 2
+				PARSNIPS edge ('PARSNIPS', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 2
+				PARSNIPS edge ('PARSNIPS', 'PEPPERS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'LETTUCE') is being evaluated with weight 1
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'TOMATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'PEAS') is being evaluated with weight 1
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'ONIONS & SHALLOTS') is being evaluated with weight 1
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'BLANK_41') is being evaluated with weight 3
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'BEANS') is being evaluated with weight 1
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'CORN') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'RADISHES') is being evaluated with weight 1
+				Min weight so far: 1
+				PARSNIPS edge ('PARSNIPS', 'BLANK_15') is being evaluated with weight 3
+			*****Min edge ('PARSNIPS', 'PEPPERS') chosen with weight 1*****
+		BLANK_31 is not in the plants set; skipping
+		BLANK_44 is not in the plants set; skipping
+		BLANK_35 is not in the plants set; skipping
+		BLANK_20 is not in the plants set; skipping
+		Checking node POTATOES
+		POTATOES has 0 neighbors
+			POTATOES can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				POTATOES edge ('POTATOES', 'SWEET POTATOES') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				POTATOES edge ('POTATOES', 'PEAS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'BEANS') is being evaluated with weight 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'ONIONS & SHALLOTS') is being evaluated with weight 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'CORN') is being evaluated with weight 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'EGGPLANT') is being evaluated with weight 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'BLANK_35') is being evaluated with weight 3
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'BEETS') is being evaluated with weight 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'BLANK_19') is being evaluated with weight 3
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'TURNIPS') is being evaluated with weight 1
+			*****Min edge ('POTATOES', 'PEAS') chosen with weight 1*****
+		Checking node CORN
+		CORN has 1 neighbors
+			CORN can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				CORN edge ('CORN', 'EGGPLANT') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				CORN edge ('CORN', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 2
+				CORN edge ('CORN', 'CUCUMBER') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				CORN edge ('CORN', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				CORN edge ('CORN', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				CORN edge ('CORN', 'SWEET POTATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				CORN edge ('CORN', 'PEAS') is being evaluated with weight 1
+				Min weight so far: 1
+				CORN edge ('CORN', 'MELONS') is being evaluated with weight 1
+				Min weight so far: 1
+				CORN edge ('CORN', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				CORN edge ('CORN', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				CORN edge ('CORN', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				CORN edge ('CORN', 'BLANK_42') is being evaluated with weight 3
+				Min weight so far: 1
+				CORN edge ('CORN', 'BLANK_11') is being evaluated with weight 3
+				Min weight so far: 1
+				CORN edge ('CORN', 'POTATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				CORN edge ('CORN', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				CORN edge ('CORN', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				CORN edge ('CORN', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				CORN edge ('CORN', 'BEANS') is being evaluated with weight 1
+				Min weight so far: 1
+				CORN edge ('CORN', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				CORN edge ('CORN', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				CORN edge ('CORN', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 1
+				Min weight so far: 1
+				CORN edge ('CORN', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				CORN edge ('CORN', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+			*****Min edge ('CORN', 'CUCUMBER') chosen with weight 1*****
+		BLANK_13 is not in the plants set; skipping
+		Checking node EGGPLANT
+		EGGPLANT has 1 neighbors
+			EGGPLANT can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				EGGPLANT edge ('EGGPLANT', 'CORN') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				EGGPLANT edge ('EGGPLANT', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 2
+				EGGPLANT edge ('EGGPLANT', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 2
+				EGGPLANT edge ('EGGPLANT', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 2
+				EGGPLANT edge ('EGGPLANT', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 2
+				EGGPLANT edge ('EGGPLANT', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 2
+				EGGPLANT edge ('EGGPLANT', 'PEPPERS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'BLANK_43') is being evaluated with weight 3
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'BLANK_21') is being evaluated with weight 3
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'CUCUMBER') is being evaluated with weight 1
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'POTATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'PEAS') is being evaluated with weight 1
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				EGGPLANT edge ('EGGPLANT', 'CARROTS') is being evaluated with weight 2
+			*****Min edge ('EGGPLANT', 'PEPPERS') chosen with weight 1*****
+		BLANK_11 is not in the plants set; skipping
+		BLANK_43 is not in the plants set; skipping
+		BLANK_22 is not in the plants set; skipping
+		BLANK_6 is not in the plants set; skipping
+		Checking node CUCUMBER
+		CUCUMBER has 0 neighbors
+			CUCUMBER can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				CUCUMBER edge ('CUCUMBER', 'CORN') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'TOMATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'PEAS') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'EGGPLANT') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'LETTUCE') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'ARUGULA') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'BEANS') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'CARROTS') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'BLANK_17') is being evaluated with weight 3
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'BLANK_6') is being evaluated with weight 3
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'ONIONS & SHALLOTS') is being evaluated with weight 1
+			*****Min edge ('CUCUMBER', 'CORN') chosen with weight 1*****
+		BLANK_8 is not in the plants set; skipping
+		Checking node LETTUCE
+		LETTUCE has 1 neighbors
+			LETTUCE can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				LETTUCE edge ('LETTUCE', 'CARROTS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'BEETS') is being evaluated with weight 1
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'PARSNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'BLANK_8') is being evaluated with weight 3
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'BLANK_40') is being evaluated with weight 3
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'BEANS') is being evaluated with weight 1
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'CORN') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'CUCUMBER') is being evaluated with weight 1
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'PEAS') is being evaluated with weight 1
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				LETTUCE edge ('LETTUCE', 'TURNIPS') is being evaluated with weight 2
+			*****Min edge ('LETTUCE', 'CARROTS') chosen with weight 1*****
+		Checking node PEAS
+		PEAS has 1 neighbors
+			PEAS can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				PEAS edge ('PEAS', 'TOMATILLOS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'POTATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'BLANK_3') is being evaluated with weight 3
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'TURNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'CARROTS') is being evaluated with weight 1
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'CORN') is being evaluated with weight 1
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 1
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'CUCUMBER') is being evaluated with weight 1
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'BLANK_7') is being evaluated with weight 3
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 1
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'PARSNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'EGGPLANT') is being evaluated with weight 1
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'LETTUCE') is being evaluated with weight 1
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				PEAS edge ('PEAS', 'PEPPERS') is being evaluated with weight 2
+			*****Min edge ('PEAS', 'TOMATILLOS') chosen with weight 1*****
+		BLANK_3 is not in the plants set; skipping
+		BLANK_2 is not in the plants set; skipping
+		Checking node MELONS
+		MELONS has 1 neighbors
+			MELONS can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				MELONS edge ('MELONS', 'POTATOES') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				MELONS edge ('MELONS', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'TOMATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'BLANK_30') is being evaluated with weight 3
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'CORN') is being evaluated with weight 1
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'BLANK_29') is being evaluated with weight 3
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				MELONS edge ('MELONS', 'CARROTS') is being evaluated with weight 2
+			*****Min edge ('MELONS', 'ZUCCHINI & SUMMER SQUASH') chosen with weight 1*****
+		Checking node RADISHES
+		RADISHES has 1 neighbors
+			RADISHES can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				RADISHES edge ('RADISHES', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				RADISHES edge ('RADISHES', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 2
+				RADISHES edge ('RADISHES', 'CORN') is being evaluated with weight 2
+				Min weight so far: 2
+				RADISHES edge ('RADISHES', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 2
+				RADISHES edge ('RADISHES', 'SWEET POTATOES') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'BLANK_0') is being evaluated with weight 3
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'BEETS') is being evaluated with weight 1
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'BLANK_33') is being evaluated with weight 3
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'CARROTS') is being evaluated with weight 1
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'PARSNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				RADISHES edge ('RADISHES', 'ARUGULA') is being evaluated with weight 2
+			*****Min edge ('RADISHES', 'SWEET POTATOES') chosen with weight 1*****
+		BLANK_27 is not in the plants set; skipping
+		BLANK_4 is not in the plants set; skipping
+		BLANK_29 is not in the plants set; skipping
+		BLANK_30 is not in the plants set; skipping
+		BLANK_33 is not in the plants set; skipping
+		BLANK_0 is not in the plants set; skipping
+		BLANK_5 is not in the plants set; skipping
+		BLANK_39 is not in the plants set; skipping
+		BLANK_18 is not in the plants set; skipping
+		Checking node BOK CHOY
+		BOK CHOY has 2 neighbors
+			BOK CHOY CANNOT accept another neighbor
+		Checking node TOMATILLOS
+		TOMATILLOS has 0 neighbors
+			TOMATILLOS can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				TOMATILLOS edge ('TOMATILLOS', 'PEAS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'ONIONS & SHALLOTS') is being evaluated with weight 1
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'BLANK_18') is being evaluated with weight 3
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'CORN') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'BLANK_39') is being evaluated with weight 3
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'PEPPERS') is being evaluated with weight 1
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATILLOS edge ('TOMATILLOS', 'BEETS') is being evaluated with weight 2
+			*****Min edge ('TOMATILLOS', 'PEAS') chosen with weight 1*****
+		BLANK_41 is not in the plants set; skipping
+		Checking node ARUGULA
+		ARUGULA has 1 neighbors
+			ARUGULA can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				ARUGULA edge ('ARUGULA', 'BOK CHOY') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				ARUGULA edge ('ARUGULA', 'CARROTS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'BLANK_32') is being evaluated with weight 3
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'BLANK_44') is being evaluated with weight 3
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'CORN') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'CUCUMBER') is being evaluated with weight 1
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'BEANS') is being evaluated with weight 1
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				ARUGULA edge ('ARUGULA', 'TURNIPS') is being evaluated with weight 2
+			*****Min edge ('ARUGULA', 'CARROTS') chosen with weight 1*****
+		Checking node CARROTS
+		CARROTS has 2 neighbors
+			CARROTS CANNOT accept another neighbor
+		Checking node TURNIPS
+		TURNIPS has 3 neighbors
+			TURNIPS CANNOT accept another neighbor
+		BLANK_15 is not in the plants set; skipping
+		BLANK_28 is not in the plants set; skipping
+
+	Neighbor iteration 1
+		BLANK_19 is not in the plants set; skipping
+		Checking node BEETS
+		BEETS has 2 neighbors
+			BEETS CANNOT accept another neighbor
+		Checking node PUMPKINS & WINTER SQUASH
+		PUMPKINS & WINTER SQUASH has 1 neighbors
+			PUMPKINS & WINTER SQUASH can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'BLANK_16') is being evaluated with weight 3
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 2
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'PEAS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'BLANK_10') is being evaluated with weight 3
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				PUMPKINS & WINTER SQUASH edge ('PUMPKINS & WINTER SQUASH', 'PARSNIPS') is being evaluated with weight 2
+			*****Min edge ('PUMPKINS & WINTER SQUASH', 'PEAS') chosen with weight 1*****
+		BLANK_42 is not in the plants set; skipping
+		BLANK_10 is not in the plants set; skipping
+		BLANK_16 is not in the plants set; skipping
+		BLANK_21 is not in the plants set; skipping
+		BLANK_23 is not in the plants set; skipping
+		Checking node PEPPERS
+		PEPPERS has 2 neighbors
+			PEPPERS CANNOT accept another neighbor
+		BLANK_17 is not in the plants set; skipping
+		BLANK_37 is not in the plants set; skipping
+		BLANK_34 is not in the plants set; skipping
+		BLANK_40 is not in the plants set; skipping
+		Checking node BEANS
+		BEANS has 1 neighbors
+			BEANS can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				BEANS edge ('BEANS', 'RADISHES') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				BEANS edge ('BEANS', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				BEANS edge ('BEANS', 'BEETS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'POTATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'BOK CHOY') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'LETTUCE') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'TURNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'SWEET POTATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'CARROTS') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'CORN') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'BLANK_37') is being evaluated with weight 3
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'CUCUMBER') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'ENDIVE') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'PARSNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'ARUGULA') is being evaluated with weight 1
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				BEANS edge ('BEANS', 'BLANK_34') is being evaluated with weight 3
+			*****Min edge ('BEANS', 'BEETS') chosen with weight 1*****
+		BLANK_7 is not in the plants set; skipping
+		BLANK_38 is not in the plants set; skipping
+		Checking node SWEET POTATOES
+		SWEET POTATOES has 1 neighbors
+			SWEET POTATOES can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				SWEET POTATOES edge ('SWEET POTATOES', 'POTATOES') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				SWEET POTATOES edge ('SWEET POTATOES', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				SWEET POTATOES edge ('SWEET POTATOES', 'BLANK_2') is being evaluated with weight 3
+				Min weight so far: 2
+				SWEET POTATOES edge ('SWEET POTATOES', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 2
+				SWEET POTATOES edge ('SWEET POTATOES', 'RADISHES') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'CORN') is being evaluated with weight 1
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'BEANS') is being evaluated with weight 1
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'BLANK_38') is being evaluated with weight 3
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				SWEET POTATOES edge ('SWEET POTATOES', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+			*****Min edge ('SWEET POTATOES', 'RADISHES') chosen with weight 1*****
+		Checking node ZUCCHINI & SUMMER SQUASH
+		ZUCCHINI & SUMMER SQUASH has 1 neighbors
+			ZUCCHINI & SUMMER SQUASH can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'EGGPLANT') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 2
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'MELONS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'PEAS') is being evaluated with weight 1
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'BLANK_27') is being evaluated with weight 3
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'CORN') is being evaluated with weight 1
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'BLANK_4') is being evaluated with weight 3
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				ZUCCHINI & SUMMER SQUASH edge ('ZUCCHINI & SUMMER SQUASH', 'TOMATILLOS') is being evaluated with weight 2
+			*****Min edge ('ZUCCHINI & SUMMER SQUASH', 'MELONS') chosen with weight 1*****
+		Checking node TOMATOES
+		TOMATOES has 1 neighbors
+			TOMATOES can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				TOMATOES edge ('TOMATOES', 'SWEET POTATOES') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'BLANK_1') is being evaluated with weight 3
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'BEANS') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'CORN') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 2
+				TOMATOES edge ('TOMATOES', 'CUCUMBER') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'MELONS') is being evaluated with weight 1
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'CARROTS') is being evaluated with weight 1
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'BLANK_5') is being evaluated with weight 3
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'PARSNIPS') is being evaluated with weight 1
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'PEPPERS') is being evaluated with weight 1
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				TOMATOES edge ('TOMATOES', 'BEETS') is being evaluated with weight 2
+			*****Min edge ('TOMATOES', 'CUCUMBER') chosen with weight 1*****
+		Checking node ENDIVE
+		ENDIVE has 1 neighbors
+			ENDIVE can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				ENDIVE edge ('ENDIVE', 'BEETS') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'EGGPLANT') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'BLANK_45') is being evaluated with weight 3
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'PEAS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'CORN') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 2
+				ENDIVE edge ('ENDIVE', 'BEANS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				ENDIVE edge ('ENDIVE', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				ENDIVE edge ('ENDIVE', 'ONIONS & SHALLOTS') is being evaluated with weight 2
+				Min weight so far: 1
+				ENDIVE edge ('ENDIVE', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				ENDIVE edge ('ENDIVE', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				ENDIVE edge ('ENDIVE', 'RADISHES') is being evaluated with weight 2
+			*****Min edge ('ENDIVE', 'BEANS') chosen with weight 1*****
+		BLANK_1 is not in the plants set; skipping
+		BLANK_45 is not in the plants set; skipping
+		BLANK_36 is not in the plants set; skipping
+		BLANK_9 is not in the plants set; skipping
+		BLANK_25 is not in the plants set; skipping
+		BLANK_14 is not in the plants set; skipping
+		BLANK_12 is not in the plants set; skipping
+		Checking node ONIONS & SHALLOTS
+		ONIONS & SHALLOTS has 4 neighbors
+			ONIONS & SHALLOTS CANNOT accept another neighbor
+		BLANK_32 is not in the plants set; skipping
+		BLANK_26 is not in the plants set; skipping
+		BLANK_24 is not in the plants set; skipping
+		Checking node PARSNIPS
+		PARSNIPS has 2 neighbors
+			PARSNIPS CANNOT accept another neighbor
+		BLANK_31 is not in the plants set; skipping
+		BLANK_44 is not in the plants set; skipping
+		BLANK_35 is not in the plants set; skipping
+		BLANK_20 is not in the plants set; skipping
+		Checking node POTATOES
+		POTATOES has 1 neighbors
+			POTATOES can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				POTATOES edge ('POTATOES', 'SWEET POTATOES') is being evaluated with weight 2
+					New min weight found: 2
+				Min weight so far: 2
+				POTATOES edge ('POTATOES', 'PEAS') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'ARUGULA') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'BEANS') is being evaluated with weight 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'ONIONS & SHALLOTS') is being evaluated with weight 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'CARROTS') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'CORN') is being evaluated with weight 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'CUCUMBER') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'TOMATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'EGGPLANT') is being evaluated with weight 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'BLANK_35') is being evaluated with weight 3
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'BEETS') is being evaluated with weight 1
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'LETTUCE') is being evaluated with weight 2
+				Min weight so far: 1
+				POTATOES edge ('POTATOES', 'BLANK_19') is being evaluated with weight 3
+			*****Min edge ('POTATOES', 'PEAS') chosen with weight 1*****
+		Checking node CORN
+		CORN has 2 neighbors
+			CORN CANNOT accept another neighbor
+		BLANK_13 is not in the plants set; skipping
+		Checking node EGGPLANT
+		EGGPLANT has 2 neighbors
+			EGGPLANT CANNOT accept another neighbor
+		BLANK_11 is not in the plants set; skipping
+		BLANK_43 is not in the plants set; skipping
+		BLANK_22 is not in the plants set; skipping
+		BLANK_6 is not in the plants set; skipping
+		Checking node CUCUMBER
+		CUCUMBER has 1 neighbors
+			CUCUMBER can accept another neighbor
+			Resetting min weight
+				Min weight so far: 99999999
+				CUCUMBER edge ('CUCUMBER', 'CORN') is being evaluated with weight 1
+					New min weight found: 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'RADISHES') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'PUMPKINS & WINTER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'TOMATOES') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'SWEET POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'TOMATILLOS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'PEAS') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'MELONS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'BOK CHOY') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'EGGPLANT') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'PEPPERS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'ENDIVE') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'LETTUCE') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'POTATOES') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'ARUGULA') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'TURNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'BEANS') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'CARROTS') is being evaluated with weight 1
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'BEETS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'BLANK_17') is being evaluated with weight 3
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'ZUCCHINI & SUMMER SQUASH') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'PARSNIPS') is being evaluated with weight 2
+				Min weight so far: 1
+				CUCUMBER edge ('CUCUMBER', 'BLANK_6') is being evaluated with weight 3
+			*****Min edge ('CUCUMBER', 'CORN') chosen with weight 1*****
+		BLANK_8 is not in the plants set; skipping
+		Checking node LETTUCE
+		LETTUCE has 2 neighbors
+			LETTUCE CANNOT accept another neighbor
+		Checking node PEAS
+		PEAS has 2 neighbors
+			PEAS CANNOT accept another neighbor
+		BLANK_3 is not in the plants set; skipping
+		BLANK_2 is not in the plants set; skipping
+		Checking node MELONS
+		MELONS has 2 neighbors
+			MELONS CANNOT accept another neighbor
+		Checking node RADISHES
+		RADISHES has 3 neighbors
+			RADISHES CANNOT accept another neighbor
+		BLANK_27 is not in the plants set; skipping
+		BLANK_4 is not in the plants set; skipping
+		BLANK_29 is not in the plants set; skipping
+		BLANK_30 is not in the plants set; skipping
+		BLANK_33 is not in the plants set; skipping
+		BLANK_0 is not in the plants set; skipping
+		BLANK_5 is not in the plants set; skipping
+		BLANK_39 is not in the plants set; skipping
+		BLANK_18 is not in the plants set; skipping
+		Checking node BOK CHOY
+		BOK CHOY has 2 neighbors
+			BOK CHOY CANNOT accept another neighbor
+		Checking node TOMATILLOS
+		TOMATILLOS has 2 neighbors
+			TOMATILLOS CANNOT accept another neighbor
+		BLANK_41 is not in the plants set; skipping
+		Checking node ARUGULA
+		ARUGULA has 2 neighbors
+			ARUGULA CANNOT accept another neighbor
+		Checking node CARROTS
+		CARROTS has 2 neighbors
+			CARROTS CANNOT accept another neighbor
+		Checking node TURNIPS
+		TURNIPS has 3 neighbors
+			TURNIPS CANNOT accept another neighbor
+		BLANK_15 is not in the plants set; skipping
+		BLANK_28 is not in the plants set; skipping

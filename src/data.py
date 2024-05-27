@@ -10,7 +10,7 @@ def get_garden_matrix() -> pd.DataFrame:
     """
     df = pd.read_excel(c.MATRIX_FILENAME)
     df = df.apply(lambda x: x.astype(str).str.upper())
-    return df[:2]
+    return df
 
 
 def get_plants(matrix: pd.DataFrame) -> set:

@@ -42,6 +42,13 @@ def planter_algorithm(input_graph: nx.Graph, output_graph: nx.Graph, plants: set
 
                 # Search through all edge weights associated with a given node
                 for edge in input_graph.edges(node):
+
+                    # Check to see if destination node can accept another neighbor
+                    neighbor_degree = len(list(output_graph.neighbors(edge[1])))
+                    if neighbor_degree >= c.NEIGHBOR_LIMITS:
+                        log.write(f"\n\t\t\t\tSkipping {edge[1]} because it cannot accept another neighbor (degree: {neighbor_degree})")
+                        continue
+
                     weight = input_graph.edges[edge[0], edge[1]]["weight"]
                     log.write(f"\n\t\t\t\tMin weight so far: {min_weight}")
                     log.write(f"\n\t\t\t\t{node} edge {edge} is being evaluated with weight {weight}")
@@ -124,11 +131,11 @@ if __name__ == "__main__":
     print("\nOUTPUT GRAPH NODES")
     print(output_graph.nodes)
 
-    # nx.draw(input_graph, with_labels=True)
-    # labels = {e: input_graph.edges[e]['weight'] for e in input_graph.edges}
-    # pos = nx.spring_layout(input_graph)  # For better example looking
-    # nx.draw_networkx_edge_labels(input_graph, pos)
-    # plt.show()
+    nx.draw(input_graph, with_labels=True)
+    labels = {e: input_graph.edges[e]['weight'] for e in input_graph.edges}
+    pos = nx.spring_layout(input_graph)  # For better example looking
+    nx.draw_networkx_edge_labels(input_graph, pos)
+    plt.show()
 
     output_graph = planter_algorithm(
         input_graph=input_graph,
